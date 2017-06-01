@@ -1,0 +1,5 @@
+name: AntiHile
+version: 1.0
+main: tr.NW09.Antihile.Plugin.main
+commands:
+  AntiHile:

@@ -1,0 +1,9 @@
+Playerlerin Doðrulamaya Girmeden Önce Geçmesi Gereken Kurallarý Ayarla +
+Bu Durumlar Saðlanmadan Doðrulamya Girmesinler SQlden siliniyorlar +
+bkz: playerkurallari +
+mesaj vericiyi ayarla +
+baþarýlý veya baþarýsýz için log sistemi ayarla +
+baþarýsýz ayarla +
+site baþarýsýz hatasý player sorgularken tekrar ederek console keranýný dolduracaktýr +
+bozulan authmeyi dogrula klasýndan extends ederek onar +
+Ardý Ardýna Hata Raporlamýsýný Engelle Ayrýca Hatalarýn Düzelip Düzelmediðini Kontrol Et

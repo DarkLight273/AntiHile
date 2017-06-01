@@ -1,0 +1,75 @@
+Hesap:
+  # Hesap Bilgileriniz
+  UNIQUEID: LISANSKODUNUZ
+  HOST: 'a3Y2WTh6QzMxSGFIUjBjRG92TDJGdWRHa3RhR2xzWlM1bGRUVXViM0puTDFCc2RXZHBibDlUYjNKbmRTNXdhSEE9V1hMVkgxaUZCTA=='
+Prefix: '&e[&cAnti&4-&cHile&e]'
+Uyari_Mesaji:
+  TekrarSaniye: 8
+  Mesaj:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&aMerhaba &4%player%'
+  - '&aSunucumuzda Anti Hile Koruması Vardır.'
+  - '&aLütfen Aşağıdaki Linkten Indirip Yönetici Olarak Çalıştırın.'
+  - '&a=> &4%link% &a<='
+  - ''
+  - ''
+Engelleme: # Oyuncunun Clientini Doğrulamadan Yapamayacağı Hareketler
+  Hareket_Etmesini_Engelle: false
+  Sohbet_Etmesini_Engelle: true
+  Komut_Girmesini_Engelle:
+    durum: true
+    Izinli_Komutlar: # Pluginin Her Durumda izin Vereceği Komtular login register vs
+    - '/login'
+    - '/register'
+    - '/AntiHile'
+  Envanter:
+    Yere_Esya_Atmasini_Engelle: true
+    Yerden_Esya_Almasini_Engelle: true
+  Herhangi_Bir_Yere_Tiklamasini_Engelle: true
+  Hasar_Almaz_Vermez: true
+Logger:
+  ConsoleLog: true
+  Filelog: true
+Mesajlar:
+  Oyuncuya_Gonderilecek_Mesajlar: # Oyuncuya Özelden Gönderilecek Mesajlar
+    durum: true
+    Basarili:
+    - '&d Clientin Başarıyla Doğrulandı !'
+    BasarisizKickMesaji:
+    - '&d izin Verilmeyen Bir Clientle Giriş Yapıyorsun !'
+  Duyuru_Mesajlar: # Sunucuda Duyuru Şeklinde Olacak Mesajlar
+    durum: true
+    Basarili:
+    - '&4%player% &aAdlı Oyuncu Clientini Doğruladı !'
+    Basarisiz:
+    - '&4%player% &aAdlı Oyuncu Izin Verilmeyen Bir Clientle Girdiği İçin Sunucudan Atıldı'
+  Log_Bilgilendirme: # Konsola Log Olarak Geçecek Mesajlar
+    durum: true
+    Basarili:
+    - '%player% Adlı Oyuncu %IP% Ip Adresinden Başarılı Bir Şekilde Giriş Yaptı.'
+    Basarisiz:
+    - '%player% Adlı Oyuncu Izin Verilmeyen %Client% Adlı Clientle %IP% Ip Adresinden Giriş Yapmayı Denedi'
+BungeCoord: # Sunucunuz BungeCoord ise Burdan Yönlendirecel Lobiyi Ayarlayabiliyrsiniz
+  durum: true
+  YonlendirmeMesaji:
+  - '&4%lobi% &aAdlı Lobiye Yönlendiriliyorsunuz.'
+  HedefLobi: AnaLobi
+  YonlendirmeSuresi: 3
+Authme: # Authmenin Bu Özelliğini Çalışması İçin Authme Reloaded Versiyonunu Olması Gerekir Link => http://dev.bukkit.org/bukkit-plugins/authme-reloaded/
+  GirisYapmasiniBekle: false
+  GirisYapmadiniz: '&aGiriş Yapmadan Client Doğrulaması Yapamazsınız.'
